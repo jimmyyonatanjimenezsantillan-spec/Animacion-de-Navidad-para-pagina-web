@@ -175,6 +175,9 @@
 
     setTimeout(() => {
       overlay.classList.remove("playing");
+      overlay.classList.add("closing");
+    }, 8000);
+    setTimeout(() => {
       overlay.remove();
     }, 9000);
   }

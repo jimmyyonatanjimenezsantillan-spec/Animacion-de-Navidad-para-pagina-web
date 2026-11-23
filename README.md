@@ -18,7 +18,7 @@ Abre `demo.html` en tu navegador. La animación empieza automáticamente y el bo
    <script src="revolucion.js" defer></script>
    ```
 
-El efecto se reproduce al cargar la página y desaparece después de nueve segundos; la franja y el distintivo navideños permanecen visibles. No requiere dependencias ni archivos de imagen adicionales.
+El efecto se reproduce al cargar la página y se desvanece durante su último segundo, hasta desaparecer a los nueve segundos; la franja y el distintivo navideños permanecen visibles. No requiere dependencias ni archivos de imagen adicionales.
 
 Para ofrecer un botón que vuelva a reproducirlo, agrega dentro de `<body>`:
 
