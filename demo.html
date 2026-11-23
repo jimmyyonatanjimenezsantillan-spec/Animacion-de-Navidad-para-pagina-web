@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#176b46">
+    <title>Animaciones | Navidad</title>
+    <link rel="stylesheet" href="revolucion.css">
+    <style>
+      body {
+        min-height: 100vh;
+        margin: 0;
+        background: #091710;
+        font-family: system-ui, sans-serif;
+      }
+
+      button {
+        position: fixed;
+        z-index: 10001;
+        right: 1rem;
+        bottom: 1rem;
+        padding: 0.8rem 1rem;
+        border: 0;
+        border-radius: 999px;
+        background: #b72b32;
+        color: #fff3d3;
+        font: inherit;
+        font-weight: 700;
+        cursor: pointer;
+      }
+
+      button:focus-visible {
+        outline: 3px solid #f5c451;
+        outline-offset: 3px;
+      }
+    </style>
+    <script src="revolucion.js" defer></script>
+  </head>
+  <body>
+    <button type="button" onclick="window.replayRevolucionEffect()">Reproducir animación</button>
+  </body>
+</html>
